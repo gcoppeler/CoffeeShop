@@ -96,7 +96,7 @@
     
     // Our query parameters
     NSDictionary *queryParams;
-    queryParams = [NSDictionary dictionaryWithObjectsAndKeys:latLon, @"ll", clientID, @"client_id", clientSecret, @"client_secret", @"coffee", @"query" @"20120602", @"v", nil];
+    queryParams = [NSDictionary dictionaryWithObjectsAndKeys:latLon, @"ll", clientID, @"client_id", clientSecret, @"client_secret", @"coffee", @"query", @"20120602", @"v", nil];
     
     [objectManager getObjectsAtPath:@"https://api.foursquare.com/v2/venues/search"
                          parameters:queryParams
