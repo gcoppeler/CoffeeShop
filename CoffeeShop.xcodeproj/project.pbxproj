@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E44295216BFE4D300BCDFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44295116BFE4D300BCDFE7 /* UIKit.framework */; };
+		4E44295416BFE4D300BCDFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44295316BFE4D300BCDFE7 /* Foundation.framework */; };
+		4E44295616BFE4D300BCDFE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44295516BFE4D300BCDFE7 /* CoreGraphics.framework */; };
+		4E44295C16BFE4D300BCDFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E44295A16BFE4D300BCDFE7 /* InfoPlist.strings */; };
+		4E44295E16BFE4D300BCDFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44295D16BFE4D300BCDFE7 /* main.m */; };
+		4E44296216BFE4D300BCDFE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44296116BFE4D300BCDFE7 /* AppDelegate.m */; };
+		4E44296416BFE4D300BCDFE7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E44296316BFE4D300BCDFE7 /* Default.png */; };
+		4E44296616BFE4D300BCDFE7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E44296516BFE4D300BCDFE7 /* Default@2x.png */; };
+		4E44296816BFE4D300BCDFE7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E44296716BFE4D300BCDFE7 /* Default-568h@2x.png */; };
+		4E44296B16BFE4D300BCDFE7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E44296916BFE4D300BCDFE7 /* MainStoryboard.storyboard */; };
+		4E44296E16BFE4D300BCDFE7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44296D16BFE4D300BCDFE7 /* MasterViewController.m */; };
+		4E44298816BFE5AF00BCDFE7 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44297F16BFE53000BCDFE7 /* libRestKit.a */; };
+		4E44299016BFE5AF00BCDFE7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44298916BFE5AF00BCDFE7 /* CFNetwork.framework */; };
+		4E44299116BFE5AF00BCDFE7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44298A16BFE5AF00BCDFE7 /* CoreData.framework */; };
+		4E44299216BFE5AF00BCDFE7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44298B16BFE5AF00BCDFE7 /* libxml2.dylib */; };
+		4E44299316BFE5AF00BCDFE7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44298C16BFE5AF00BCDFE7 /* MobileCoreServices.framework */; };
+		4E44299416BFE5AF00BCDFE7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44298D16BFE5AF00BCDFE7 /* QuartzCore.framework */; };
+		4E44299516BFE5AF00BCDFE7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44298E16BFE5AF00BCDFE7 /* Security.framework */; };
+		4E44299616BFE5AF00BCDFE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E44298F16BFE5AF00BCDFE7 /* SystemConfiguration.framework */; };
+		4E44299916BFE70B00BCDFE7 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44299816BFE70B00BCDFE7 /* Venue.m */; };
+		4E44299C16BFE7CB00BCDFE7 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44299B16BFE7CB00BCDFE7 /* Location.m */; };
+		4E44299F16C067B200BCDFE7 /* VenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44299E16C067B200BCDFE7 /* VenueCell.m */; };
+		4E4429A216C06CB500BCDFE7 /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4429A116C06CB500BCDFE7 /* Stats.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E44297E16BFE53000BCDFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		4E44298016BFE53000BCDFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		4E44298216BFE53000BCDFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		4E44298416BFE53000BCDFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		4E44298616BFE58400BCDFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E44294E16BFE4D300BCDFE7 /* CoffeeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E44295116BFE4D300BCDFE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E44295316BFE4D300BCDFE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E44295516BFE4D300BCDFE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E44295916BFE4D300BCDFE7 /* CoffeeShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeShop-Info.plist"; sourceTree = "<group>"; };
+		4E44295B16BFE4D300BCDFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E44295D16BFE4D300BCDFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E44295F16BFE4D300BCDFE7 /* CoffeeShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeShop-Prefix.pch"; sourceTree = "<group>"; };
+		4E44296016BFE4D300BCDFE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E44296116BFE4D300BCDFE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E44296316BFE4D300BCDFE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4E44296516BFE4D300BCDFE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4E44296716BFE4D300BCDFE7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4E44296A16BFE4D300BCDFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4E44296C16BFE4D300BCDFE7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4E44296D16BFE4D300BCDFE7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		4E44298916BFE5AF00BCDFE7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4E44298A16BFE5AF00BCDFE7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E44298B16BFE5AF00BCDFE7 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4E44298C16BFE5AF00BCDFE7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4E44298D16BFE5AF00BCDFE7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E44298E16BFE5AF00BCDFE7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E44298F16BFE5AF00BCDFE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4E44299716BFE70B00BCDFE7 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		4E44299816BFE70B00BCDFE7 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		4E44299A16BFE7CB00BCDFE7 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		4E44299B16BFE7CB00BCDFE7 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		4E44299D16C067B200BCDFE7 /* VenueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueCell.h; sourceTree = "<group>"; };
+		4E44299E16C067B200BCDFE7 /* VenueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueCell.m; sourceTree = "<group>"; };
+		4E4429A016C06CB500BCDFE7 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		4E4429A116C06CB500BCDFE7 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E44294B16BFE4D300BCDFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44299016BFE5AF00BCDFE7 /* CFNetwork.framework in Frameworks */,
+				4E44299116BFE5AF00BCDFE7 /* CoreData.framework in Frameworks */,
+				4E44299216BFE5AF00BCDFE7 /* libxml2.dylib in Frameworks */,
+				4E44299316BFE5AF00BCDFE7 /* MobileCoreServices.framework in Frameworks */,
+				4E44299416BFE5AF00BCDFE7 /* QuartzCore.framework in Frameworks */,
+				4E44299516BFE5AF00BCDFE7 /* Security.framework in Frameworks */,
+				4E44299616BFE5AF00BCDFE7 /* SystemConfiguration.framework in Frameworks */,
+				4E44298816BFE5AF00BCDFE7 /* libRestKit.a in Frameworks */,
+				4E44295216BFE4D300BCDFE7 /* UIKit.framework in Frameworks */,
+				4E44295416BFE4D300BCDFE7 /* Foundation.framework in Frameworks */,
+				4E44295616BFE4D300BCDFE7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E44294516BFE4D300BCDFE7 = {
+			isa = PBXGroup;
+			children = (
+				4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */,
+				4E44295716BFE4D300BCDFE7 /* CoffeeShop */,
+				4E44295016BFE4D300BCDFE7 /* Frameworks */,
+				4E44294F16BFE4D300BCDFE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E44294F16BFE4D300BCDFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E44294E16BFE4D300BCDFE7 /* CoffeeShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E44295016BFE4D300BCDFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E44298916BFE5AF00BCDFE7 /* CFNetwork.framework */,
+				4E44298A16BFE5AF00BCDFE7 /* CoreData.framework */,
+				4E44298B16BFE5AF00BCDFE7 /* libxml2.dylib */,
+				4E44298C16BFE5AF00BCDFE7 /* MobileCoreServices.framework */,
+				4E44298D16BFE5AF00BCDFE7 /* QuartzCore.framework */,
+				4E44298E16BFE5AF00BCDFE7 /* Security.framework */,
+				4E44298F16BFE5AF00BCDFE7 /* SystemConfiguration.framework */,
+				4E44295116BFE4D300BCDFE7 /* UIKit.framework */,
+				4E44295316BFE4D300BCDFE7 /* Foundation.framework */,
+				4E44295516BFE4D300BCDFE7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E44295716BFE4D300BCDFE7 /* CoffeeShop */ = {
+			isa = PBXGroup;
+			children = (
+				4E44296016BFE4D300BCDFE7 /* AppDelegate.h */,
+				4E44296116BFE4D300BCDFE7 /* AppDelegate.m */,
+				4E44296916BFE4D300BCDFE7 /* MainStoryboard.storyboard */,
+				4E44296C16BFE4D300BCDFE7 /* MasterViewController.h */,
+				4E44296D16BFE4D300BCDFE7 /* MasterViewController.m */,
+				4E4429A016C06CB500BCDFE7 /* Stats.h */,
+				4E4429A116C06CB500BCDFE7 /* Stats.m */,
+				4E44299A16BFE7CB00BCDFE7 /* Location.h */,
+				4E44299B16BFE7CB00BCDFE7 /* Location.m */,
+				4E44299716BFE70B00BCDFE7 /* Venue.h */,
+				4E44299816BFE70B00BCDFE7 /* Venue.m */,
+				4E44299D16C067B200BCDFE7 /* VenueCell.h */,
+				4E44299E16C067B200BCDFE7 /* VenueCell.m */,
+				4E44295816BFE4D300BCDFE7 /* Supporting Files */,
+			);
+			path = CoffeeShop;
+			sourceTree = "<group>";
+		};
+		4E44295816BFE4D300BCDFE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E44295916BFE4D300BCDFE7 /* CoffeeShop-Info.plist */,
+				4E44295A16BFE4D300BCDFE7 /* InfoPlist.strings */,
+				4E44295D16BFE4D300BCDFE7 /* main.m */,
+				4E44295F16BFE4D300BCDFE7 /* CoffeeShop-Prefix.pch */,
+				4E44296316BFE4D300BCDFE7 /* Default.png */,
+				4E44296516BFE4D300BCDFE7 /* Default@2x.png */,
+				4E44296716BFE4D300BCDFE7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E44297816BFE53000BCDFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E44297F16BFE53000BCDFE7 /* libRestKit.a */,
+				4E44298116BFE53000BCDFE7 /* RestKitTests.octest */,
+				4E44298316BFE53000BCDFE7 /* RestKit.framework */,
+				4E44298516BFE53000BCDFE7 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E44294D16BFE4D300BCDFE7 /* CoffeeShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E44297416BFE4D300BCDFE7 /* Build configuration list for PBXNativeTarget "CoffeeShop" */;
+			buildPhases = (
+				4E44294A16BFE4D300BCDFE7 /* Sources */,
+				4E44294B16BFE4D300BCDFE7 /* Frameworks */,
+				4E44294C16BFE4D300BCDFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E44298716BFE58400BCDFE7 /* PBXTargetDependency */,
+			);
+			name = CoffeeShop;
+			productName = CoffeeShop;
+			productReference = 4E44294E16BFE4D300BCDFE7 /* CoffeeShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E44294616BFE4D300BCDFE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Geecee Designs";
+			};
+			buildConfigurationList = 4E44294916BFE4D300BCDFE7 /* Build configuration list for PBXProject "CoffeeShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E44294516BFE4D300BCDFE7;
+			productRefGroup = 4E44294F16BFE4D300BCDFE7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4E44297816BFE53000BCDFE7 /* Products */;
+					ProjectRef = 4E44297716BFE53000BCDFE7 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4E44294D16BFE4D300BCDFE7 /* CoffeeShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4E44297F16BFE53000BCDFE7 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 4E44297E16BFE53000BCDFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E44298116BFE53000BCDFE7 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 4E44298016BFE53000BCDFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E44298316BFE53000BCDFE7 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 4E44298216BFE53000BCDFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E44298516BFE53000BCDFE7 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 4E44298416BFE53000BCDFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E44294C16BFE4D300BCDFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44295C16BFE4D300BCDFE7 /* InfoPlist.strings in Resources */,
+				4E44296416BFE4D300BCDFE7 /* Default.png in Resources */,
+				4E44296616BFE4D300BCDFE7 /* Default@2x.png in Resources */,
+				4E44296816BFE4D300BCDFE7 /* Default-568h@2x.png in Resources */,
+				4E44296B16BFE4D300BCDFE7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E44294A16BFE4D300BCDFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E44295E16BFE4D300BCDFE7 /* main.m in Sources */,
+				4E44296216BFE4D300BCDFE7 /* AppDelegate.m in Sources */,
+				4E44296E16BFE4D300BCDFE7 /* MasterViewController.m in Sources */,
+				4E44299916BFE70B00BCDFE7 /* Venue.m in Sources */,
+				4E44299C16BFE7CB00BCDFE7 /* Location.m in Sources */,
+				4E44299F16C067B200BCDFE7 /* VenueCell.m in Sources */,
+				4E4429A216C06CB500BCDFE7 /* Stats.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E44298716BFE58400BCDFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 4E44298616BFE58400BCDFE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E44295A16BFE4D300BCDFE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E44295B16BFE4D300BCDFE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E44296916BFE4D300BCDFE7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E44296A16BFE4D300BCDFE7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E44297216BFE4D300BCDFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E44297316BFE4D300BCDFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E44297516BFE4D300BCDFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeShop/CoffeeShop-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				INFOPLIST_FILE = "CoffeeShop/CoffeeShop-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E44297616BFE4D300BCDFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeShop/CoffeeShop-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				INFOPLIST_FILE = "CoffeeShop/CoffeeShop-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E44294916BFE4D300BCDFE7 /* Build configuration list for PBXProject "CoffeeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E44297216BFE4D300BCDFE7 /* Debug */,
+				4E44297316BFE4D300BCDFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E44297416BFE4D300BCDFE7 /* Build configuration list for PBXNativeTarget "CoffeeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E44297516BFE4D300BCDFE7 /* Debug */,
+				4E44297616BFE4D300BCDFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E44294616BFE4D300BCDFE7 /* Project object */;
+}
